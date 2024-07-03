@@ -48,7 +48,7 @@ private:
     QMutex              m_mutex;
     Lifestream*         life;
     QMap<int, QRect>    map_rectengules;
-    QLabel*             statistic_int; // Для отображения живых молекул
+    QLabel*             statistic_int;
     int                 nextCoordsX = 0;
     int                 nextCoordsY = 50;
     int                 nextLine = 0;
